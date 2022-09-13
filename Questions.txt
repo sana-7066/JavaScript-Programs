@@ -1,0 +1,4 @@
+1. Display Date and time in this formate
+   Date:Monday
+   Time:10:37:05 am
+   
