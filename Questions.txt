@@ -1,4 +1,21 @@
 1. Display Date and time in this formate
    Date:Monday
    Time:10:37:05 am
-   
+2.Remove Duplicates from array
+3.Find Unique hobbies and print them as 'cricket # tennis # writing';
+4.Find the second maximum value from array.
+5.sort words and number in  array
+6.guess the Number .
+7.Find out the nth largest element from given array
+8.Print any random element of array
+9.Create array of given length and fill it with given value e.g array_filled(6,0).
+10.move element from given position to the specific position
+e.g [4,5,6,1,2,3],3,2 => [4,5,1,6,2,3]
+11.create array from that number to specific range e.g. (2,6) => [2,3,4,5,6,7]
+12.create array between given range (4,7) => [4,5,6,7];
+13.if start of string = 'py' then return as it is else add py and then return
+14.MAke the first letter capital of each word in sentence 
+15.Find whether the element is array or object or none of them
+16.Clone the array
+17.if n is passed then return first n numbers
+18.n is passed then return last n numbers

@@ -1,4 +1,5 @@
 // Find the element which has highest number of frequency
+//note: values stored in variables matters
 //VIMP
 const Arr = [1,5,151,1,1,5,1,6,8,16,8,6,1,6];
 let count=0;
