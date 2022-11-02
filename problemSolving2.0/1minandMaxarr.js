@@ -25,6 +25,3 @@ copy.name ="sana"
 console.log(user);
 console.log(copy);
 
-//11-10-2022
-// revise deep copy shallow copy, pass by value pass by refernce ,spread operator and rest parameter 
-//3rd day full revision no problem solving and guess output

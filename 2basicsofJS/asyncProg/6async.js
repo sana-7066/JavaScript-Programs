@@ -26,7 +26,7 @@ function setItem(obj)
 async function init()
 {
     try{
-        await setItem({id:3,title: "third"});
+        await setItem({id:3,title: "third"});// function returns promise
         getItem();
     }
     catch(err)
