@@ -5,7 +5,7 @@ function minMax(arr) {
 console.log(minMax([1,5,7,4,7,9,6,8,0,6]));
 
 
-//spread operator gives array elements in separate manner also object's field , you can create clone of array or object using spread operator
+//spread operator gives array elements in separate/distict manner also object's field , you can create clone of array or object using spread operator
 // but spread and assign operator does partial deep copying in composite datatypes(non primitive datatypes).
 // if you want to achieve fully deep copy need to use it logically
 // ...arr => 5 5 3 arr => [5,5,3]
