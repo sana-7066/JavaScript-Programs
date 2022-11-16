@@ -38,5 +38,35 @@ User : {
   name: 'sana',
   location: { city: 'Aurangabad', state: 'Maharashtra' }
 }*/
-//-----BOTH CITY NAME WILL BE CHANGED BECAUSE SPREAD OPERATOR DOES PARTIAL DEEP COPY NOT FULL DEEP COPY 
-// ----SO THE NESTED OBJECTS VALUE ARE REPLACED
+//-----BOTH CITY NAME WILL BE CHANGED BECAUSE SPREAD OPERATOR DOES PARTIAL DEEP COPY NOT FULL DEEP COPY IT ONLY SHARE THE REFERENCE OF NESTED OBJECTS
+// ----SO THE NESTED OBJECTS VALUE ARE REPLACED TO AVOID THIS WE WILL USE FOLOOWING METHOD
+const obj3 = {
+  name : "Arun",
+  location : {
+    city : "Bangalore",
+    state : "Karnataka"
+  }
+}
+const cpy = JSON.parse(JSON.stringify(obj3))
+cpy.name = "Arsal"
+cpy.location.city = "Gulbarga"
+console.log(obj3)
+console.log(cpy)
+
+//with the above method we can copy the object from another object and make changes in it without any hesitation but there is one drawback of this 
+//method it does not copy JSON non supported data 
+// for e.g
+
+const obj4 ={
+  stdname : "Sana",
+  age :23,
+  getDetails : function(){
+    return this.stdname +"Age : "+ this.age
+  }
+}
+
+const newObj = JSON.parse(JSON.stringify(obj4));
+console.log(`Old object : `)
+console.log(obj4)
+console.log(`Copied obj `)
+console.log(newObj)
