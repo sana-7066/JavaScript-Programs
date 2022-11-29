@@ -15,4 +15,4 @@ function subset(str)
     return subsetArr;
 }
 
-console.log(subset("nawazshaikh"))
+console.log(subset("sana"))

@@ -5,6 +5,9 @@ const c = 3;
 console.log(a==b);
 console.log(a===b);
 console.log(b===c);
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
 //o/p
 /*
 true
