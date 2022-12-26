@@ -1,4 +1,4 @@
-/*
+/* QUESTION
  * Complete the 'lonelyinteger' function below.
  * return only unique element in array
  * The function is expected to return an INTEGER.

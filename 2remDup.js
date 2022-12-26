@@ -1,4 +1,5 @@
-/*Remove Duplicate Elements*/
+/*IMP
+Remove Duplicate Elements*/
 
 function Remdup(arr)
 {
@@ -26,5 +27,5 @@ function RemDup2(arr)
 console.log(RemDup2([1,2,3,3,2,4,5,6,,6,7,6,8]))
 
 //Tip : filter and forEach function have same arguments 
-// only difference is that filter method return array/ array elements whether forEach method doesnot return anything 
+// only difference is that filter method return new filtered array/ array elements whether forEach method doesnot return anything 
 //indexOf Function returns first occurance of element

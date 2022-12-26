@@ -1,4 +1,4 @@
-/*
+/* IMP splice method
 move element from given position to the specific position
 e.g [4,5,6,1,2,3],3,2 => [4,5,1,6,2,3]
 */

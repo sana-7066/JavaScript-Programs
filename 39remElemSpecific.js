@@ -1,6 +1,4 @@
 /*Remove the given specific element in array */
-// 1.I first checked how problem would be solved
-//2.Then try to apply
 function RemElem(arr,num)
 {
     const index = arr.indexOf(num);

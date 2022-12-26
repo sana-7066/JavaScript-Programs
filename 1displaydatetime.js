@@ -1,4 +1,6 @@
-/*
+/* IMP 
+notes: const birthday4 = new Date(1995, 11, 17, 3, 24, 0) =>
+creating new date object, month is 0 index in javascript i.e. 11 means december
 Display Date and time in this formate
    Today:Monday
    Time:10:37:05 am
