@@ -1,4 +1,5 @@
-// List the properties in Object
+//IMP
+// List the properties in Object and count the properties
 
 const std = {
     name : "Suraj",
@@ -27,4 +28,4 @@ const person = {
 
 console.log(person);
 console.log(`Total properties in object ${Object.keys(person).length}`)
-console.log(`These properties are as follows : ${Object.keys(person)}`)
+console.log(`These properties are as follows : ${Object.keys(person)}`)// returns all keys in an array
