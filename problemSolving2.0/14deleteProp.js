@@ -15,5 +15,5 @@ console.log(obj)
 
 //---------------DELETE ON ARRAY----------------
 const arr = [1,2,3,4,5];
-delete(arr[3]);
+delete(arr[3]);// arr[3] will be empty / undefined
 console.log(arr)

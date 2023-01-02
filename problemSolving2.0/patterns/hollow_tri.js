@@ -1,0 +1,8 @@
+/*
+hollow triangle like this 
+
+  *
+ * *
+* * *
+*/
+ 
