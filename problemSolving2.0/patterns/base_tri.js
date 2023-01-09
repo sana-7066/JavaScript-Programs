@@ -5,6 +5,7 @@
   *******  
   pyramid triangle like this 
   //logic
+  // this program will require three loops
   //each row is having n-i spaces and 2*i-1 stars
 */
 

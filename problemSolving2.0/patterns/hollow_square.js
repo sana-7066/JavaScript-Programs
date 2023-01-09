@@ -8,11 +8,11 @@
 function drawSquare(n)
 {
     let str = "";
-    for(i=1;i<=n;i++)
+    for(i=1;i<=n;i++)// Tip : think of one row at a time like first row only
     {
-        for(j=1;j<=n;j++)
+        for(j=1;j<=n;j++)// same no of row same no. of column
         {
-            if(i===1 || i===n)
+            if(i===1 || i===n)// first and last row with all stars
             {
                 str+="*"
             }
@@ -21,7 +21,7 @@ function drawSquare(n)
                 {
                     str+="*"
                 }
-                else{
+                else{ //spaces in between to  make it hollow
                     str+=" "
                 } 
                
