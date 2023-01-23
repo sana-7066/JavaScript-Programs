@@ -24,8 +24,13 @@ function RemDup2(arr)
   return arr2;
 }
 
-console.log(RemDup2([1,2,3,3,2,4,5,6,,6,7,6,8]))
+console.log(RemDup2([1,2,3,3,2,4,5,6,6,7,6,8]))
+//----------------------------------------method 3----------------------------------
+const set = new Set([1,2,3,3,2,4,5,6,6,7,6,8]);
+const arr3 = new Array(...set)
+console.log(set);
+console.log(arr3);// if want to print in array type
 
 //Tip : filter and forEach function have same arguments 
-// only difference is that filter method return new filtered array/ array elements whether forEach method doesnot return anything 
+// only difference is that filter method return new filtered array/ array elements whether forEach method doesnot return anythingit is kind of loop
 //indexOf Function returns first occurance of element

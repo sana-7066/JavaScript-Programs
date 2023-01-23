@@ -1,9 +1,11 @@
-/* IMP 
-notes: const birthday4 = new Date(1995, 11, 17, 3, 24, 0) =>
+/* VIMP 
+notes: const birthday4 = new Date(1995, 11, 17, 3, 24, 0) 
+ const date2 = new Date("2022-03-25")=>
 creating new date object, month is 0 index in javascript i.e. 11 means december
 Display Date and time in this formate
    Today:Monday
    Time:10:37:05 am
+  Q2. Make digital clock
  */
 
 const date = new Date();
