@@ -13,3 +13,7 @@ function Sqr(arr)//0 1 2
 }
 
 console.log(Sqr([0,1,2,4,6,7]));
+//-----------------------Method 2-------------------------------
+const arr = [0,1,2,4,6,7];
+var sum = arr.reduce((a,c) =>  a+Math.pow(c,2))
+console.log(sum)

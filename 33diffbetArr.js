@@ -10,7 +10,7 @@ function differenceOf2Arrays (array1, array2) {
     
     // console.log(array2.toString().split(',').map(Number));
     // let array1 = [100,2,1,10]
-    //toString() => converting array / nexted array into string ,elements separated by ',' e.g  => 100,2,1,10
+    //toString() => converting array / nexted array into string ,elements separated by ',' e.g  => 100,2,1,10 join() also converts the array in string
     //split(',') => spliting the string element separated by ',' => [ '100', '2', '1', '10' ]
     //map(Number) => mapping string element in number e.g. '1' => [ 100, 2, 1, 10 ]
     

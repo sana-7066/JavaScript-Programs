@@ -15,3 +15,10 @@ function array_filled(length,element)
 console.log(array_filled(6,0))
 console.log(array_filled(9,11))
 console.log(array_filled(5,'*'))
+//----------------------------Method 2 ---------------------
+function creteArr(size,elem)
+{
+    return new Array(size).fill(elem)
+}
+console.log(creteArr(5,6));
+console.log(creteArr(7,"#"));
