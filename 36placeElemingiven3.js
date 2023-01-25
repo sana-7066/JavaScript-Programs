@@ -1,4 +1,4 @@
-/*vimp
+/*imp
 place 2's ,1's and all 0's in array such that in this order [2,0,1]
 if 2 at start
 if 0 at middle 

@@ -1,4 +1,4 @@
-/**VIMP
+/**IMP
  * if two consecuutive numbers are even then add - in between otherwise leave it as it is
  * e.g. 02356784 => 0-235678-4 like this
  */

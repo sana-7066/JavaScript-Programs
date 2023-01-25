@@ -1,4 +1,4 @@
-/*Remove the given specific element in array */
+/*vimp Remove the given specific element in array */
 function RemElem(arr,num)
 {
     const index = arr.indexOf(num);
